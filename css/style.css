@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@import url(https://fonts.google.com/specimen/EB+Garamond?query=EB+gara&sidebar.open&selection.family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500);
+:root {
+	--blue: #41c1fe;
+--oscuro: #383838;
+--gris: #f3f3f3;
+--titles: #3c3838;
+--subtitle: #888585;
+--text: #898989;
+}
+header {
+	background-color: transparent;
+	position: absolute
+}
+header .btn-menu{
+	background-color: var(--blue);
+	padding: 15px 25px !important;
+}
+header .nav-link:active{
+	color: var(--titles) !important;
+	border: 1px solid #fff;
+}
+#hero {
+	background-image: url("../img/slider1_slide2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: auto;
+	padding: 200px;
+	text-align: center;
+}
+#hero h1{
+	text-align-last: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 75px;
+	font-weight: 700;
+}
+#hero p{
+	text-align-last: center;
+	color: var(--text);
+	padding-bottom: 100px;
+}
+.btn-default{
+	background-color: var(--blue);
+	color: #fff;
+	border-radius: 30px;
+	padding: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.btn-default.active{
+	background-color: #fff;
+	color: var(--blue)
+}
+#shop{
+	background-color: var(--gris);
+	padding-bottom: 50px;
+}
+#shop h1{
+	text-align-last: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	padding: 50px;
+	text-transform: uppercase;
+}
+#shop .men {
+	background-image: url("../img/men-running.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid var(--gris) 2px;
+	padding: 50px;
+}
+#shop .women {
+	background-image: url("../img/women-runnig.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid var(--gris) 2px;
+	padding: 50px;
+}
+#shop .sale {
+	background-color: var(--blue);
+	border: solid var(--gris) 2px;
+	padding: 30px;
+}
+#shop .product{
+	background-color: #fff;
+	border: solid var(--gris) 1px;
+}
+#shop h2{
+	color: var(--text);
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+	margin: 20px;
+	text-transform: uppercase;
+}
+#shop h3{
+	text-align-last: center;
+	text-transform: uppercase;
+	color: var(--titles);
+	font-weight: 700;
+	font-size: 50px;
+}
+#shop h4{
+	color: var(--titles);
+	text-transform: uppercase;
+	text-align-last: center;
+	font-weight: 700;
+	font-size: 15px;
+}
+#shop h5{
+	color: var(--text);
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+#shoes{
+	background-image: url("../img/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: auto;
+	padding: 25px 200px;
+}
+#shoes h1{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+#shoes h1 span{
+	color: var(--blue);
+}
+#shoes p{
+	font-size: 10px;
+	color: var(--text);
+}
+#shoes h2{
+	margin: 45px 0;
+	color: var(--blue);
+}
+#new{
+	background-color: var(--gris);
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#new h1{
+	text-align-last: center;
+	font-size: 25px;
+	font-weight: 700;
+	color: #fff;
+	padding: 25px;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+#new .men {
+	background-image: url("../img/service-1-370x330.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid var(--gris) 2px;
+	padding: 50px;
+}
+#new .women {
+	background-image: url("../img/service-2-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid var(--gris) 2px;
+	padding: 50px;
+	padding-top: 50px;
+}
+#new .sale {
+	background-image: url("../img/service-3-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid var(--gris) 2px;
+	padding: 30px;
+}
+#new .product{
+	background-color: #fff;
+	border: solid var(--gris) 1px;
+}
+#new h2{
+	color: var(--text);
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+	margin: 20px;
+	text-transform: uppercase;
+}
+#new h3{
+	text-align-last: center;
+	text-transform: uppercase;
+	color: var(--titles);
+	font-weight: 700;
+	font-size: 50px;
+}
+#new h4{
+	color: var(--titles);
+	text-transform: uppercase;
+	text-align-last: center;
+	font-weight: 700;
+	font-size: 15px;
+}
+#new h5{
+	color: var(--text);
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+#form{
+	background-color: var(--blue);
+	padding: 50px;
+}
+#form h1{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#social{
+	padding: 20px;
+	background-color: var(--oscuro);
+}
+#social h1{
+	font-size: 10px;
+	color: var(--text);
+}
+.btn-social{
+	border-radius: 100px;
+	border: solid 1px var(--text);
+	color: var(--text);
+}
